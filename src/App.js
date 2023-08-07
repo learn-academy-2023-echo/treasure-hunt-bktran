@@ -45,6 +45,19 @@ const App = () => {
     }
   }
 
+  const handlePlayAgain = () => {
+    setBoard(["?",
+    "?",
+    "?",
+    "?",
+    "?",
+    "?",
+    "?",
+    "?",
+    "?"])
+  }
+
+
   return (
     <>
       <h1>Treasure Hunt Game</h1>
@@ -53,6 +66,8 @@ const App = () => {
         return <Square square={square} index={index} key={index} handleGamePlay={handleGamePlay}/>
       })}
       </div>
+      <br></br>
+      <button className="restart" onClick={handlePlayAgain}>Play Again!</button>
     </>
   )
 }
