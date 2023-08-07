@@ -36,6 +36,8 @@ const App = () => {
       updateBoard[clickedSquare] = "💎"
       // update state with updated boatd
       setBoard(updateBoard)
+      alert("YOU WIN")
+      handlePlayAgain()
     } else if (clickedSquare === bombLocation){
       // reassign state value to bomb emoji
       updateBoard[clickedSquare] = "💣"
@@ -61,6 +63,7 @@ const App = () => {
     "?",
     "?",
     "?"])
+    setClickNum(5)
   }
 
   return (
