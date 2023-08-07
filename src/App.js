@@ -43,6 +43,8 @@ const App = () => {
       updateBoard[clickedSquare] = "💣"
       // update state with updated board
       setBoard(updateBoard)
+      alert("You Lose")
+      handlePlayAgain()
     } else {
       // access value at clicked index and set value to tree emoji
       updateBoard[clickedSquare] = "🌲"
