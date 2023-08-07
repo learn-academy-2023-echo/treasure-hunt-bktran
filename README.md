@@ -39,6 +39,11 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 
 - As a user, I can click on a “Play Again” button that will restart the game.
 
+    - branch: play-again
+    - added button to play again
+    - added function to set board to initial values
+    - styled button to center
+
 
 - As a user, I can see a counter that shows how many guesses I have left. The counter starts at five and decrements one every time I click on a square that is not the treasure nor the bomb.
 

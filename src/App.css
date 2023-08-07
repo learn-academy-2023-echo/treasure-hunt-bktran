@@ -16,3 +16,8 @@ h1 {
   width: 610px;
   margin: 0 auto; /* top right bottom left*/
 }
+
+.restart {
+  display: flex;
+  margin: 0 auto;
+}
